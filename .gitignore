@@ -1,5 +1,0 @@
-# Ignore all files with no dot
-**/[^.]*
-
-# But allow directories
-!*/
