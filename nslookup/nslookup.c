@@ -1,3 +1,14 @@
+/*
+C code for nslookup binary
+
+Features:
+input URL and it returns IP address, showing all servers
+
+TODO:
+Reverse lookup
+Add flags for help and reverse lookup
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>

@@ -1,0 +1,23 @@
+There are a ton of structs, here is a cheat sheet.
+https://man7.org/linux/man-pages/
+
+
+Addresses
+    sockaddr, generic address structure 
+    sockaddr_in, IPv4 address structure
+        in_addr, Actual IPv4 address
+    sockaddr_in6, IPv6 address structure
+        in6_addr, Actual IPv6 address
+
+
+DNS/host resolution
+    hostent, DNS resolution, used by gethostbyname() and gethostbyaddr()
+    addrinfo, used by getaddrinfo(), keeps data like Cname, flag, family, socketype, etc
+
+IP/transport headers
+    iphdr, 
+    tcphdr, 
+    udphdr,
+    icmphdr
+
+Sockets/options

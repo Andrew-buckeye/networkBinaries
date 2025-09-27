@@ -1,0 +1,6 @@
+Ping uses Internet Control Message Protocol, ICMP
+Specifically, ICMP ECHO_REQUEST datagram to get an ECHO_RESPONSE from the hostq
+
+
+Used as DOS
+ping sweep, ping flood, smurf attack
