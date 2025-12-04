@@ -1,12 +1,12 @@
 /*
 C code for ping binary - Cross-platform compatible (macOS/Linux)
+Based off https://www.geeksforgeeks.org/computer-networks/ping-in-c/
 
 TODO:
 understand ping better, understand ICMP
 Different packet size
 Takes IPv4, IPv6, and URL as input
 
-TODO:
 Default is endless pings, make an option to manually send x pings
     Ping 8.8.8.8 -c 6
 Stats at end of ping, packet loss, packet transmitted, time, rtt, etc
